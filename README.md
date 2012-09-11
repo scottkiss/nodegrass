@@ -3,6 +3,11 @@
 
   nodegrass is a tool to process client request like jquery's ajax for Node.js
   
+## Install
+```bash
+$ npm install nodegrass
+```
+  
 ## Useage
 ```js
 var nodegrass = require('nodegrass');

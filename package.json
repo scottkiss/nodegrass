@@ -12,9 +12,14 @@
 		"http",
 		"https"
 	],
+	"repository":{
+		"type":"git",
+		"url":"git://github.com/scottkiss/nodegrass.git"
+	
+	},
 	 "dependencies": {
 		"iconv-lite" : "0.2.5"
-	 }
+	 },
 	"main":"index",
 	 "engines": {
 		"node": ">= 0.4.1"
