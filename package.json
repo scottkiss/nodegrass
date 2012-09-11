@@ -1,0 +1,28 @@
+{
+	"name":"nodegrass",
+	"version":"0.0.1",
+	"description":"nodegrass is a easy tool to process client request for Node.js",
+	"auther":{
+		"name":"sk-scottkiss",
+		"email":"skkmvp@hotmail.com"
+	},
+	"keywords":[
+		"request",
+		"nodegrass",
+		"http",
+		"https"
+	],
+	 "dependencies": {
+		"iconv-lite" : "0.2.5"
+	 }
+	"main":"index",
+	 "engines": {
+		"node": ">= 0.4.1"
+	},
+	 "readme": "# nodegrass.js - a tool for client request",
+	 "_id": "nodegrass@0.0.1",
+	 "_from": "nodegrass"
+	 
+	
+
+}
