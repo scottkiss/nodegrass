@@ -1,7 +1,7 @@
 # What's nodegrass
 ======
 
-  nodegrass is a tool to process client request like jquery's ajax for Node.js
+  nodegrass is a tool to process client request for Node.js
   
 ## Install
 ```bash
