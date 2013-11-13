@@ -1,39 +1,27 @@
 {
-  "name": "nodegrassex",
+  "name" : "nodegrass",
   "version": "0.0.2",
-  "auther": [ {
-    "name": "sk-scottkiss",
-    "email": "skkmvp@hotmail.com"
-  ], [
-    "name": "XadillaX",
-    "email": "admin@xcoder.in"
-  ]},
+  "description":"nodegrass is a easy tool to process client request for Node.js",
+  "auther": "sk-scottkiss <skkmvp@hotmail.com>",
+  "contributors": [ "XadillaX <admin@xcoder.in>" ],
   "keywords": [
     "request",
     "nodegrass",
     "http",
     "https"
   ],
-  "repository": {
+  "repository" : {
     "type": "git",
-    "url": "git://github.com/XadillaX/nodegrass.git"
+    "url": "git://github.com/scottkiss/nodegrass.git"
   },
-  "dependencies": {
-    "iconv-lite": "0.2.5"
+  "dependencies" : {
+    "iconv-lite" : "0.2.5"
   },
-  "main": "index",
-  "engines": {
+  "main" : "index",
+  "engines" : {
     "node": ">= 0.4.1"
   },
-  "_from": "nodegrass",
-  "bugs": {
-    "url": "https://github.com/XadillaX/nodegrass/issues"
-  },
-  "directories": {
-    "example": "examples"
-  },
-  "description": {
-    "test": "This project is forked on nodegrass. But the owner of that project seems not support it any more."
-  },
-  "license": "MIT"
+  "readme" : "# nodegrass.js - a tool for client request",
+  "_id": "nodegrass@0.0.2",
+  "license" : "MIT"
 }
