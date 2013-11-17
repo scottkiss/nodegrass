@@ -10,6 +10,7 @@ $ npm install nodegrass
   
 ## Useage
 ```js
+//get request
 var nodegrass = require('nodegrass');
 nodegrass.get("https://github.com",function(data,status,headers){
 	console.log(status);
@@ -19,12 +20,21 @@ nodegrass.get("https://github.com",function(data,status,headers){
     console.log("Got error: " + e.message);
 });
 
+//download file
+var nodegrass = require('nodegrass');
+nodegrass.getFile('http://www.xxx.com/XXXX.jpg','d:/cccc/yep.jpg',function(e){
+	if(e){
+		console.log(e);
+	}
+	console.log('download success!');
+});
+
 ```
 ## License
 
 (The MIT License)
 
-Copyright (c) 2011-2012 sk &lt;skkmvp@hotmail.com&gt;
+Copyright (c) 2011-2013 sk &lt;skkmvp@hotmail.com&gt;
 
 Permission is hereby granted, free of charge, to any person obtaining
 a copy of this software and associated documentation files (the

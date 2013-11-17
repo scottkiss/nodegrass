@@ -1,6 +1,6 @@
 {
   "name" : "nodegrass",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description":"nodegrass is a easy tool to process client request for Node.js",
   "auther": "sk-scottkiss <skkmvp@hotmail.com>",
   "contributors": [ "XadillaX <admin@xcoder.in>" ],
@@ -22,6 +22,6 @@
     "node": ">= 0.4.1"
   },
   "readme" : "# nodegrass.js - a tool for client request",
-  "_id": "nodegrass@0.0.2",
+  "_id": "nodegrass@0.0.3",
   "license" : "MIT"
 }
